@@ -69,7 +69,7 @@ STREAMING_DATA_CLIENT_NAME = '__yt_dlp_client'
 # any clients starting with _ cannot be explicitly requested by the user
 INNERTUBE_CLIENTS = {
     'web': {
-        'INNERTUBE_API_KEY': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+        'INNERTUBE_API_KEY': 'AIzaSyAutGxI0y1y5gcfDmQwsUCr6bk4zJxQvDo',
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'WEB',
@@ -79,7 +79,7 @@ INNERTUBE_CLIENTS = {
         'INNERTUBE_CONTEXT_CLIENT_NAME': 1
     },
     'web_embedded': {
-        'INNERTUBE_API_KEY': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+        'INNERTUBE_API_KEY': 'AIzaSyAutGxI0y1y5gcfDmQwsUCr6bk4zJxQvDo',
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'WEB_EMBEDDED_PLAYER',
@@ -216,7 +216,7 @@ INNERTUBE_CLIENTS = {
     # mweb has 'ultralow' formats
     # See: https://github.com/yt-dlp/yt-dlp/pull/557
     'mweb': {
-        'INNERTUBE_API_KEY': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+        'INNERTUBE_API_KEY': 'AIzaSyAutGxI0y1y5gcfDmQwsUCr6bk4zJxQvDo',
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'MWEB',
@@ -228,7 +228,7 @@ INNERTUBE_CLIENTS = {
     # This client can access age restricted videos (unless the uploader has disabled the 'allow embedding' option)
     # See: https://github.com/zerodytrash/YouTube-Internal-Clients
     'tv_embedded': {
-        'INNERTUBE_API_KEY': 'AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+        'INNERTUBE_API_KEY': 'AIzaSyAutGxI0y1y5gcfDmQwsUCr6bk4zJxQvDo',
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'TVHTML5_SIMPLY_EMBEDDED_PLAYER',
